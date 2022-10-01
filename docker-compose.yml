@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/app/Dockerfile
+      args:
+        USER_UID: 10000
+        USER_GID: 10000
+    volumes:
+      - .:/azurite-showcase
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
+    # Runs app on the same network as the storage container, allows "forwardPorts" in devcontainer.json function.
+    user: vscode
+    init: true
+
+  azurite:
+    image: 'mcr.microsoft.com/azure-storage/azurite'
+    ports:
+      - '10000:10000'
+      - '10001:10001'
+      - '10002:10002'
