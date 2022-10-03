@@ -12,8 +12,8 @@ When you can use this setup?
 * You want your tests to be indenpendent of any actual cloud resource
 
 ## Resources
-[Blog post](https://blog.johnnyreilly.com/2021/05/15/azurite-and-table-storage-dev-container/) by [John Reilly](https://twitter.com/johnny_reilly) for the devcontainer setup
-[Azurite Repo](https://github.com/Azure/Azurite)
+* [Blog post](https://blog.johnnyreilly.com/2021/05/15/azurite-and-table-storage-dev-container/) by [John Reilly](https://twitter.com/johnny_reilly) for the devcontainer setup
+* [Azurite Repo](https://github.com/Azure/Azurite)
 
 ## Contact
 Alexander Fottner a.fottner@googlemail.com
