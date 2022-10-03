@@ -13,7 +13,7 @@ When you can use this setup?
 
 ## Resources
 [Blog post](https://blog.johnnyreilly.com/2021/05/15/azurite-and-table-storage-dev-container/) by [John Reilly](https://twitter.com/johnny_reilly) for the devcontainer setup
-[Auirite Repo](https://github.com/Azure/Azurite)
+[Azurite Repo](https://github.com/Azure/Azurite)
 
 ## Contact
 Alexander Fottner a.fottner@googlemail.com
