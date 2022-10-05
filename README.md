@@ -1,4 +1,4 @@
-# azurite-showcase
+# Azurite Showcase
 A minimal example of how to emulate Azure Blob storage in your Python project during local development and CI.
 
 This example illustrates using [azurite](https://github.com/Azure/Azurite) as storage emulator, [adlfs](https://github.com/Azure/Azurite) for interacting with azure cloud storage and [pytest](https://docs.pytest.org/en/latest/) as testing framework.
